@@ -1,3 +1,31 @@
 body{
 	background-color: skyblue;
+	background-image: url("building.PNG");
+	background-repeat: repeat-xy;
+	background-image-opacity: 0.1;
+	background-position: right top;
+	background-size:  100px 100px;
+
+}
+/*this is my css file */
+#heading{
+	color: hsl(0, 100%, 50%);
+}
+.new-p{
+	height: 200px;
+	width: 200px;
+	background-color: white;
+	opacity: 0.1;
+
+}
+#new-p{
+	color: red;
+	opacity: 1;
+}
+#new-d{
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	top: 100px;
+	z-index: 99;
 }
