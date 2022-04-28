@@ -29,3 +29,16 @@ body{
 	top: 100px;
 	z-index: 99;
 }
+p.black{
+	color: hsl(0, 100%, 50%);
+	border: double green;
+}
+h1.black{
+	color: green;
+	border:  dotted red;
+	border-style: dotted;
+}
+a.black{
+	color: skyblue;
+	border: inset;
+}
