@@ -1,6 +1,6 @@
 body{
 	background-color: skyblue;
-	background-image: url("building.PNG");
+	background-image: url("../images/001.PNG");
 	background-repeat: repeat-xy;
 	background-image-opacity: 0.1;
 	background-position: right top;
@@ -23,6 +23,8 @@ body{
 	opacity: 1;
 }
 #new-d{
+
+letter-spacing: 5px;
 	height: 100px;
 	width: 200px;
 	position: absolute;
@@ -32,13 +34,32 @@ body{
 p.black{
 	color: hsl(0, 100%, 50%);
 	border: double green;
+	width: 300px;
+	text-transform: uppercase;
+	white-space: nowrap;
+
 }
 h1.black{
 	color: green;
-	border:  dotted red;
-	border-style: dotted;
+	border:  dotted red 2px;
+	width: 300px;
+	background-color: #ffffff;
+	
 }
 a.black{
 	color: skyblue;
-	border: inset;
+	border: inset 50px;
+	text-transform: uppercase;
+	}
+h1.black{
+	outline-style: solid;
+	outline-width: thick;
+	outline-offset: 5px;
+	text-decoration-line: underline;
+	text-decoration-color: black;
+	text-decoration-style: dashed;
+	text-transform: capitalize;
+	text-indent: 50px;
+	letter-spacing: 5px;
+	line-height: 1;
 }
